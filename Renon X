@@ -1,0 +1,27 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CodesisFunny/ui-loading/main/my%20load%20script%20ui.txt'))()
+wait(6)
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Renon X Hub V1.4",
+   LoadingTitle = "Welcome!",
+   LoadingSubtitle = "by Renon X",
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Renon X Hub",
+      Subtitle = "Key System (Join Discord For Key!)",
+      Note = "(https://discord.gg/Tm69JM96g9)",
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "RenonNo.1"
+   }
+})
+
+local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Main Script")
+local Button = Tab:CreateButton({
+   Name = "Load Script Renon X Hub V1.3",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/CodesisFunny/Renon-Hub-Ver-Disco/main/Renon%20Hub%20disco"))()
+   end,
+})
