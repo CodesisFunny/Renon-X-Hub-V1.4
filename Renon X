@@ -10,7 +10,7 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "Renon X Hub",
       Subtitle = "Key System (Join Discord For Key!)",
-      Note = "(https://discord.gg/a2DPuabJba)",
+      Note = "(https://discord.gg/bUbztYGtBK)",
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
       Key = "RenonNo.1"
    }
