@@ -25,6 +25,12 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/CodesisFunny/Renon-Hub-Ver-Disco/main/Renon%20Hub%20disco"))()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Load Script Infinite Yield",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
 
 local Tab = Window:CreateTab("Script", 4483362458) -- Title, Image
 
