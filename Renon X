@@ -1,5 +1,3 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/CodesisFunny/ui-loading/main/my%20load%20script%20ui.txt'))()
-wait(6)
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
