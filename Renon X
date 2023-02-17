@@ -17,8 +17,8 @@ local Window = Rayfield:CreateWindow({
 })
 
 Rayfield:Notify({
-   Title = "Notification Title",
-   Content = "Notification Content",
+   Title = "YO!",
+   Content = "Want to join discord server?",
    Duration = 6.5,
    Image = 4483362458,
    Actions = { -- Notification Buttons
