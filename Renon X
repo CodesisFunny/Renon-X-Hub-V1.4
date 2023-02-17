@@ -24,7 +24,8 @@ Rayfield:Notify({
    Actions = { -- Notification Buttons
       Ignore = {
          Name = "Okay!",
-         Callback = setclipboard(https://discord.gg/xFNNNah4WJ)
+         Callback = function()
+         setclipboard(https://discord.gg/xFNNNah4WJ)
          print("Done Copy!")
       end
    },
@@ -33,13 +34,14 @@ Rayfield:Notify({
 
 local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
 
-local Section = Tab:CreateSection("Main Script")
+local Section = Tab:CreateSection("old version")
 local Button = Tab:CreateButton({
    Name = "Load Script Renon X Hub V1.3",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/CodesisFunny/Renon-Hub-Ver-Disco/main/Renon%20Hub%20disco"))()
    end,
 })
+local Section = Tab:CreateSection("Admin script")
 local Button = Tab:CreateButton({
    Name = "Load Script Infinite Yield",
    Callback = function()
