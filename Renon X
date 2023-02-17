@@ -14,21 +14,6 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-Rayfield:Notify({
-   Title = "!",
-   Content = "Join discord server",
-   Duration = 6.5,
-   Image = 4483362458,
-   Actions = { -- Notification Buttons
-      Ignore = {
-         Name = "Copy",
-         Callback = setclipboard(https://discord.gg/xFNNNah4WJ)
-         print("Done!")
-      end
-   },
-},
-})
-
 local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("Main Script")
