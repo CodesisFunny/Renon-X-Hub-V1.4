@@ -16,6 +16,17 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
+Rayfield:Notify({
+   Title = "Notification Title",
+   Content = "Notification Content",
+   Duration = 6.5,
+   Image = 4483362458,
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+})
+
 local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("old version")
