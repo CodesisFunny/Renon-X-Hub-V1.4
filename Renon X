@@ -2,20 +2,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/CodesisFunny/ui-loadi
 wait(6)
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
-local Window = Rayfield:CreateWindow({
-   Name = "Renon X Hub V1.4",
-   LoadingTitle = "Welcome!",
-   LoadingSubtitle = "by Renon X",
-   KeySystem = true, -- Set this to true to use our key system
-   KeySettings = {
-      Title = "Renon X Hub│@NRVKR#9839",
-      Subtitle = "Key System (Join Discord For Key!)",
-      Note = "(https://discord.gg/xFNNNah4WJ)",
-      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = "RenonNo.1"
-   }
-})
-
 Rayfield:Notify({
    Title = "YO!",
    Content = "Want to join discord server?",
@@ -30,6 +16,20 @@ Rayfield:Notify({
       end
    },
 },
+})
+
+local Window = Rayfield:CreateWindow({
+   Name = "Renon X Hub V1.4",
+   LoadingTitle = "Welcome!",
+   LoadingSubtitle = "by Renon X",
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Renon X Hub│@NRVKR#9839",
+      Subtitle = "Key System (Join Discord For Key!)",
+      Note = "(https://discord.gg/xFNNNah4WJ)",
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "RenonNo.1"
+   }
 })
 
 local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
