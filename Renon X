@@ -65,8 +65,7 @@ local Button = Tab:CreateButton({
 })
 
 
-local Section = Tab:CreateSection("Mega Marble Run Pit Script")
-local Section = Tab:CreateSection("if you got callback error pls join Mega Marble Run Pit")
+local Section = Tab:CreateSection("Mega Marble Run Pit Script (if you got callback error pls join Mega Marble Run Pit)")
 local Button = Tab:CreateButton({
    Name = "Start auto farm point",
    Callback = function()
