@@ -2,22 +2,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/CodesisFunny/ui-loadi
 wait(6)
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
-Rayfield:Notify({
-   Title = "YO!",
-   Content = "Want to join discord server?",
-   Duration = 6.5,
-   Image = 4483362458,
-   Actions = { -- Notification Buttons
-      Ignore = {
-         Name = "Okay!",
-         Callback = function()
-         setclipboard("https://discord.gg/xFNNNah4WJ")
-         print("Done copy!")
-      end
-   },
-},
-})
-
 local Window = Rayfield:CreateWindow({
    Name = "Renon X Hub V1.4",
    LoadingTitle = "Welcome!",
