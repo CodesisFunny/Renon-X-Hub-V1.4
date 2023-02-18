@@ -67,7 +67,7 @@ local Button = Tab:CreateButton({
 
 local Section = Tab:CreateSection("Mega Marble Run Pit Script (if you got callback error pls join Mega Marble Run Pit)")
 local Button = Tab:CreateButton({
-   Name = "Start auto farm point",
+   Name = "Start auto farm Credits",
    Callback = function()
    _G.Running = true
 while _G.Running == true do
@@ -78,7 +78,7 @@ end
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "Stop auto farm point",
+   Name = "Stop auto farm Credits",
    Callback = function()
    _G.Running = false
 while _G.Running == true do
