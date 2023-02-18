@@ -23,7 +23,7 @@ Rayfield:Notify({
    Image = 4483362458,
    Actions = { -- Notification Buttons
       Ignore = {
-         Name = "Copy!",
+         Name = "Okay!",
          Callback = function()
          setclipboard(https://discord.gg/xFNNNah4WJ)
          print(Done copy!)
