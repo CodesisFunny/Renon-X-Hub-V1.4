@@ -26,6 +26,7 @@ Rayfield:Notify({
          Name = "Copy!",
          Callback = function()
          setclipboard(https://discord.gg/xFNNNah4WJ)
+         print(Done copy!)
       end
    },
 },
