@@ -19,7 +19,7 @@ local Window = Rayfield:CreateWindow({
 Rayfield:Notify({
    Title = "YO!",
    Content = "this script is beta wait for update soon!",
-   Duration = 6.5,
+   Duration = 5,
    Image = 4483362458,
    Actions = { -- Notification Buttons
       Ignore = {
