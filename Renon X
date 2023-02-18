@@ -61,3 +61,28 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/One-x-HUB/main/README.md"))()
    end,
 })
+
+
+local Section = Tab:CreateSection("Mega Marble Run Pit Script")
+local Button = Tab:CreateButton({
+   Name = "Start auto farm point",
+   Callback = function()
+   _G.Running = true
+while _G.Running == true do
+firetouchinterest(game.Players.LocalPlayer.Character["Left Leg"], game:GetService("Workspace").Movers.Begining["Touch Me To Go to Spawn Area"].Head, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character["Left Leg"], game:GetService("Workspace").Movers.Begining["Touch Me To Go to Spawn Area"].Head, 1)
+end
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Stop auto farm point",
+   Callback = function()
+   _G.Running = false
+while _G.Running == true do
+firetouchinterest(game.Players.LocalPlayer.Character["Left Leg"], game:GetService("Workspace").Movers.Begining["Touch Me To Go to Spawn Area"].Head, 0)
+wait()
+firetouchinterest(game.Players.LocalPlayer.Character["Left Leg"], game:GetService("Workspace").Movers.Begining["Touch Me To Go to Spawn Area"].Head, 1)
+end
+   end,
+})
