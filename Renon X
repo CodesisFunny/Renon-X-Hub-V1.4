@@ -23,9 +23,9 @@ Rayfield:Notify({
    Image = 4483362458,
    Actions = { -- Notification Buttons
       Ignore = {
-         Name = "Okay!",
+         Name = "Copy link!",
          Callback = function()
-         print("The user tapped Okay!")
+         setclipboard(https://discord.gg/xFNNNah4WJ)
       end
    },
 },
