@@ -11,8 +11,8 @@ Rayfield:Notify({
       Ignore = {
          Name = "Okay!",
          Callback = function()
-         setclipboard(https://discord.gg/xFNNNah4WJ)
-         print(Done copy!)
+         setclipboard("https://discord.gg/xFNNNah4WJ")
+         print("Done copy!")
       end
    },
 },
