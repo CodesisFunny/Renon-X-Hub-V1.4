@@ -95,7 +95,7 @@ end
    end,
 })
 
-local Tab = Window:CreateTab("Credit", ) -- Title, Image
+local Tab = Window:CreateTab("Credit", 12747722974) -- Title, Image
 
 local Section = Tab:CreateSection("UI by rayfield lib(https://rayfield.dev/)")
 
