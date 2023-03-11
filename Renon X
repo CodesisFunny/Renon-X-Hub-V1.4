@@ -1,6 +1,6 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/CodesisFunny/ui-loading/main/my%20load%20script%20ui.txt'))()
 wait(6)
---discordjoin
+--discord join
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/Backup/DiscordInviter.lua"))().Prompt({
     invite = "xFNNNah4WJ",
