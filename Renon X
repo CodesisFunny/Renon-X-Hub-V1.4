@@ -95,7 +95,7 @@ end
    end,
 })
 
-local Tab = Window:CreateTab("Credit", https://cdn.discordapp.com/attachments/1071436055657599047/1084012589668909056/275_20230204161450.png) -- Title, Image
+local Tab = Window:CreateTab("Credit", ) -- Title, Image
 
 local Section = Tab:CreateSection("UI by rayfield lib(https://rayfield.dev/)")
 
