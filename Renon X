@@ -96,12 +96,7 @@ end
 })
 
 local Tab = Window:CreateTab("Credit", 4483362458) -- Title, Image
-local Input = Tab:CreateInput({
-   Name = "Input Example",
-   PlaceholderText = "Input Placeholder",
-   RemoveTextAfterFocusLost = false,
-   Callback = function(Text)
-   -- The function that takes place when the input is changed
-   -- The variable (Text) is a string for the value in the text box
-   end,
-})
+
+local Section = Tab:CreateSection("UI by rayfield lib(https://rayfield.dev/)")
+
+local Section = Tab:CreateSection("Script by Renon X(! ™#9839)")
